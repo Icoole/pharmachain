@@ -49,13 +49,13 @@ body {
 
 
 .box {
-    max-width: 500px ; /* Set the max width of the form */
-    margin: 2em auto; /* Center the form horizontally with some top margin */
-    padding: 2em; /* Add padding inside the box */
-    border: 1px solid #ccc; /* Light grey border */
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
-    background-color: #fff; /* White background */
+    max-width: 500px ; 
+    margin: 2em auto; 
+    padding: 2em; 
+    border: 1px solid #ccc; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    background-color: #fff; 
     font-size: 0.7em;
 }
 
