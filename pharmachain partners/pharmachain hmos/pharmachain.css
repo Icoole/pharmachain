@@ -1,0 +1,113 @@
+@import url(<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">);
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+    font-family: 'poppins', sans-serif;
+}
+
+body 
+{
+    background: linear-gradient(90deg,#0E63F4 0%, #0E63F4 50%, #ffffff 50%, #ffffff 50% );
+
+}
+
+.contactUs
+{
+    position: relative;
+    width: 100%;
+    padding: 40px 100px;
+}
+
+.contactUs .title
+{
+    display: flex;
+    justify-content: bottom ;
+    align-items: bottom;
+    font-size: 2em;
+}
+.contactUs .title h2
+{
+    color: #ffffff;
+    font-weight: 500;
+    position: relative;
+}
+.form
+{
+    grid-area: form;
+}
+.contact
+{
+    padding: 40px;
+    background: #ffffff;
+}
+.box
+{
+    background: white;
+    border-radius: 20px;
+    height: 70vh;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    padding: 24px;
+    gap: 24px;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 25px 0px #24242436;
+}
+
+.contact h4
+{
+    color: #323338;
+    font-weight: 100;
+    font-size: 1.4em;
+    text-align: left;
+ 
+}
+
+.formBox{
+    position: relative;
+    width: 90%;
+    width: Fixed 100px;
+    height: 46px;
+    padding: 24px;
+    gap: 24px;
+    border-radius: 8px 8px 8px 8px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+
+}
+
+.formBox .row50{
+    display: flex;
+    gap: 12px;
+    padding: 5px, 10px, 5px, 10px;
+    border: 5px;
+}
+
+.inputBox{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2px;
+}
+
+.formBox .inputBox input {
+    position: relative;
+    height: 20px;
+    width:auto;
+    outline: none;
+    font-size: 1rem;
+    color: #C5C7D0;
+    margin-top: 5px;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 12px;
+
+}
+
+.formBox  .column .input-box {
+    display: flex;
+    column-gap: 15px;
+
+}
