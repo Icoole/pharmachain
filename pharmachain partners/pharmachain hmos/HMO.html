@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hmo|Become our Partner</title>
+    <link rel="stylesheet" href="HMOstyles.css">
+    <script src="HMOJAVASCRIPT.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <br>
+            <br>
+            <br>
+             <a href="#" class="back-button">&#8592;</a>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+              <nav>
+                <a href="#">Home</a> &gt; <a href="#">Partner Sign Up</a> &gt; <a href="#">HMO</a>
+             </nav>
+            <br>
+            <br>
+            <h2>Bring Pharmachain <br> Solution Close To You</h2>
+            <br>
+            <br>
+            <p>Collaborate with us to provide <br> medications for your client, tell us what <br> you want and how we can help you <br> make ordering drugs for clients easy.</p>
+        </div>
+      <div class="box">
+            <h1>Sign Up Details</h1>
+            <div id ="error"></div>
+            <form id="myform" action="/submit-signup" method="GET">
+            <div class="form">
+               <div class="form-group">
+                  <label for="business-name">Business Name</label>
+                  <input type="text" id="business-name" name="business-name">
+                   <div class="error"></div>
+               </div>
+               <div class="form-group">
+                  <label for="cac-number">CAC Number</label>
+                  <input type="text" id="cac-number" name="cac-number">
+                  <div class="error"></div>
+              </div>
+            </div>
+            <div class="lon-form">
+              <div class="form-group">
+                <label for="email">Email Address (for correspondence)</label>
+                <input type="email" id="email" name="email" spellcheck="false">
+                <div class="error"></div>
+              </div>
+            </div>
+            <div class="forms">
+              <div class="form-group"> 
+                <label for="contact-info">Contact Information</label>
+                <select id="state" name="state" onchange="populateLGAs()">
+                  <option value="">Search States..</option>
+                  <option value="abia">Abia</option>
+                  <option value="adamawa">Adamawa</option>
+                  <option value="akwa-ibom">Akwa Ibom</option>
+                  <option value="anambra">Anambra</option>
+                  <option value="bauchi">Bauchi</option>
+                  <option value="bayelsa">Bayelsa</option>
+                  <option value="benue">Benue</option>
+                  <option value="borno">Borno</option>
+                  <option value="cross-river">Cross River</option>
+                  <option value="delta">Delta</option>
+                  <option value="ebonyi">Ebonyi</option>
+                  <option value="edo">Edo</option>
+                  <option value="ekiti">Ekiti</option>
+                  <option value="enugu">Enugu</option>
+                  <option value="gombe">Gombe</option>
+                  <option value="imo">Imo</option>
+                  <option value="jigawa">Jigawa</option>
+                  <option value="kaduna">Kaduna</option>
+                  <option value="kano">Kano</option>
+                  <option value="katsina">Katsina</option>
+                  <option value="kebbi">Kebbi</option>
+                  <option value="kogi">Kogi</option>
+                  <option value="kwara">Kwara</option>
+                  <option value="lagos">Lagos</option>
+                  <option value="nasarawa">Nasarawa</option>
+                  <option value="niger">Niger</option>
+                  <option value="ogun">Ogun</option>
+                  <option value="ondo">Ondo</option>
+                  <option value="osun">Osun</option>
+                  <option value="oyo">Oyo</option>
+                  <option value="plateau">Plateau</option>
+                  <option value="rivers">Rivers</option>
+                  <option value="sokoto">Sokoto</option>
+                  <option value="taraba">Taraba</option>
+                  <option value="yobe">Yobe</option>
+                  <option value="zamfara">Zamfara</option>
+              </select> 
+              <div class="error"></div>          
+              </div>
+                <div class="form-group">
+                <input type="text" id="lga" name="lga" placeholder="Select LGA (Must choose a state first)">
+                <div class="error"></div>
+                </div>
+            </div>
+            <div class="nex-form">
+                <div class="form-group">
+             <input type="text" id="street-address" name="street-address" placeholder="Street Address">
+             <div class="error"></div>
+                </div>
+            </div>
+            <div class="las-form">
+             <div class="form-group">
+                <label for="patients">Number of patients in your care</label>
+                <select id="text" name="patients" onchange="Number">
+                  <option value="">1-500,501-1000,1001-2000,etc...</option>
+                  <option value="1-500">1-500</option>
+                  <option value="501-1000">501-1000</option>
+                  <option value="1001-2000">1001-2000</option>
+                  <option value="2001-5000">2001-5000</option>
+                  <option value="5000 and Above">5000 and Above</option>
+                </select>
+                <div class="error"></div>
+             </div>
+             <div class="form-group">
+                <label for="phone-number">Phone Number</label>
+                <input type="tel" id="phone-number" name="phone-number">
+                <div class="error"></div>
+             </div>
+            </div>
+            <div class="fin-form">
+             <div class="form-group">
+              <label for="help">How can Pharmachain help your organization?</label>
+              <textarea id="help" name="help"></textarea>
+              <div class="error"></div>
+             </div>
+          </div>
+          <div class="button">
+            <input type="submit" value="Apply">
+          </div>
+          <div class="terms">
+              By Clicking 'Apply', you agree to our <a href="#">Terms and Conditions</a>
+          </div>
+          <div class="login-link">
+              Already have an account? <a href="#">Login</a>
+          </div>
+
+    </div>
+  </form>
+</body>
+</html>
